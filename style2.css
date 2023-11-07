@@ -1,0 +1,268 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, #faa669, #ff7eb5);
+    z-index: 1000;
+    transition: 0.3s ease;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 20;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navbar:hover {
+    background: linear-gradient(90deg, #fc98c3, #f84995);
+}
+
+.container {
+    margin-top: 1px;
+}
+
+.header {
+    margin-top: 1px;
+}
+
+
+.header h1 {
+    color: #fff;
+}
+
+.header a {
+    color: #f7c2d9;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    color: #ff7eb5;
+}
+
+.header {
+    background-image: url(sweetlife3.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+ 
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+p {
+    color: #000000;
+}
+
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature1 {
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 0,5px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+.feature2 {
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 0,5px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+.feature3 {
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 0,5px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+.feature4 {
+    background: linear-gradient(90deg, #f39a5ab7, #ff7eb5);
+    border-radius: 100px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 10px 5px #f1247d3e;
+    margin-bottom: 30px;
+}
+
+.feature i {
+    color: #ff7eb5;
+    font-size: 1rem;
+}
+
+.feature h2 {
+    color: #ff7eb5;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.feature p {
+    color: #333;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.review-column {
+    width: 33.33%;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 5%;
+    text-align: center;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.review-column i {
+    font-size: 24px;
+    color: #ff7eb5;
+}
+
+.review-column h2 {
+    font-size: 1.2rem;
+    margin: 40px;
+    color: #333;
+}
+
+.review-column p {
+    font-size: 1rem;
+    color: #555;
+}
+
+footer {
+    background-color: #b0aeae;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+    transition: 0.3s ease;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    font-size: 13px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #060606;
+}
+
+.social-icons a {
+    color: #000000;
+    font-size: 20px
+}
+
+
+
+.cta-button {
+    background-color: #222222;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background: linear-gradient(90deg, #fc98c3, #f39a5a74);
+    color: #000000
+}
+
+.heart-icon::before {
+    content: '\2764';
+    font-size: 1.5rem;
+    color: #ff7eb5;
+    margin-right: 5px;
+}
+
+.friendship-icon::before {
+    content: '\1F91D';
+    font-size: 1.5rem;
+    color: #ff7eb5;
+    margin-right: 5px;
+}
+
+.chat-icon::before {
+    content: '\1F4AC';
+    font-size: 1.5rem;
+    color: #ff7eb5;
+    margin-right: 5px;
+}
+
+.app-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+  }
+  
+  .app-icon {
+    width: 250px; 
+    height: auto;
+  }

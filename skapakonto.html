@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ljuva livet - Skapa din profil</title>
+    <link rel="stylesheet" type="text/css" href="aboutme.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Skapa din dejtingprofil</h1>
+        <form action="process.php" method="post">
+            <div class="form-column">
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="fodelsedatum">Födelsedatum:</label>
+                <input type="text" id="fodelsedatum" name="fodelsedatum" required>
+
+                <label for="telefonnummer">Telefonnummer:</label>
+                <input type="text" id="telefonnummer" name="telefonnummer" required>
+
+                <label for="work">Arbete:</label>
+                <input type="text" id="work" name="work">
+
+                <label for="length">Längd (cm):</label>
+                <input type="text" id="length" name="length">
+
+                <label for="drinking">Dricker du alkohol?</label>
+                <select id="drinking" name="drinking">
+                    <option value="blanc">-</option>
+                    <option value="ja">Ja</option>
+                    <option value="nej">Nej</option>
+                    <option value="ibland">Ibland</option>
+                </select><br><br>
+
+                <label for="interests">Intressen:</label>
+                <textarea id="interests" name="interests" rows="4"></textarea>
+            </div>
+            <div class="form-column">
+                <label for="gender">Kön:</label>
+                <select id="gender" name="gender" required>
+                    <option value="-">-</option>
+                    <option value="man">Man</option>
+                    <option value="kvinna">Kvinna</option>
+                    <option value="annat">Annat</option>
+                </select>
+
+                <label for="epost">Epost:</label>
+                <input type="text" id="epost" name="epost" required>
+
+                <label for="city">Stad:</label>
+                <input type="text" id="city" name="city">
+
+                <label for="utbildning">Utbildning:</label>
+                <input type="text" id="utbildning" name="work">
+
+                <label for="languages">Språk:</label>
+                <input type="text" id="languages" name="languages" required>
+
+                <label for="smoking">Röker du?</label>
+                <select id="smoking" name="smoking">
+                    <option value="blanc">-</option>
+                    <option value="ja">Ja</option>
+                    <option value="nej">Nej</option>
+                    <option value="ibland">Ibland</option>
+                </select><br><br>
+
+                <label for="biografi">Biografi:</label>
+                <textarea id="biografi" name="biografi" rows="4"></textarea>
+            </div>
+            <button type="submit">Skapa profil</button>
+        </form>
+    </div>
+</body>
+
+</html>

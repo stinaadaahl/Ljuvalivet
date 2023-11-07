@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(sweetlife4.jpg); /* Ange sökvägen till din bild */
+    background-size: cover; /* Anpassa storleken efter fönstret */
+    background-repeat: no-repeat; /* Förhindra upprepning av bilden */
+    background-attachment: fixed; /* Fäst bakgrundsbilden på plats */
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff7eb5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 2px solid #faa669;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.form-column {
+    width: 45%;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ff7eb5;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #fc98c3;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+select#gender, select#smoking, select#drinking {
+    width: 107%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7eb5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #fc98c3, #f39a5a74);
+    color: #000000;
+}
+

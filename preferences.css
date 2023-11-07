@@ -1,0 +1,123 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(sweetlife4.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #333;
+}
+
+#minage,
+#maxage {
+    width: 99%;
+    padding: 10px;
+    border: 2px solid #fc98c3;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.radius-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 105%
+}
+
+.radius-label {
+    font-weight: bold;
+    width: 40%;
+}
+
+.radius-input {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #fc98c3;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.radius-unit-select {
+    width: 15%;
+    padding: 10px;
+    border: 2px solid #fc98c3;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+h1 {
+    color: #ff7eb5; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form {
+    background-color: #f9f9f9; 
+    border: 2px solid #f39a5a; 
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 20px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ff7eb5; 
+}
+
+input[type="text"],
+input[type="number"],
+
+select {
+    width: 100%;
+    padding: 9px;
+    margin: 1px;
+    border: 2px solid #fc98c3;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #333; 
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(sweetlife4.jpg) no-repeat right;
+    background-color: #fff; 
+    color: #000000;
+}
+
+input[type="submit"] {
+    background-color: #ff7eb5; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(90deg, #fc98c3, #f39a5a74);
+    color: #000000;
+}
+

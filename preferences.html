@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ljuva livet - Dina Preferenser</title>
+    <link rel="stylesheet" type="text/css" href="preferences.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dina Preferenser</h1>
+        <form action="matchmaking.php" method="post">
+            <div class="form-column">
+
+
+                <label for="interest">Jag är intresserad av:</label>
+                <select id="gender" name="gender" required>
+                    <option value="blanc">-</option>
+                    <option value="man">Män</option>
+                    <option value="kvinna">Kvinnor</option>
+                    <option value="ickebinära">Icke-binära</option>
+                    <option value="alla">Alla</option>
+                </select><br><br>
+
+
+                <label for="location">Mitt område:</label>
+                <input type="text" id="location" name="location" required><br><br>
+
+                <div class="radius-container">
+                    <label class="radius-label" for="maximumdistance">Maximalt avstånd:</label>
+                    <input type="number" id="search-radius" name="search-radius" class="radius-input" required>
+                    <select id="radius-unit" name="radius-unit" class="radius-unit-select" required>
+                        <option value="km">km</option>
+                        <option value="mil">mil</option>
+                    </select>
+                </div>
+                <div class="form-column">
+                    <label for="minage">Lägsta ålder:</label>
+                    <input type="number" id="minage" name="minage" min="18" max="100" required><br><br>
+                    
+                    <label for="maxage">Högsta ålder:</label>
+                    <input type="number" id="maxage" name="maxage" min="18" max="100" required><br><br>
+
+                    <label for="education-level">Utbildningsnivå:</label>
+                    <select id="education-level" name="education-level" required>
+                        <option value="blanc">-</option>
+                        <option value="grundskola">Grundskola</option>
+                        <option value="gymnasium">Gymnasium</option>
+                        <option value="universitet">Universitet/Högskola</option>
+                        <option value="spelaringenroll">Spelar ingen roll</option>
+                    </select><br><br>
+
+
+            
+
+
+                    <input type="submit" value="Hitta Matcher">
+        </form>
+</body>
+
+</html>

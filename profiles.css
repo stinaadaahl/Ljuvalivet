@@ -1,0 +1,98 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(90deg, #faa669, #ff7eb5);
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    color: #ff7eb5;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000000;
+}
+
+.profile-info img {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.profile-info span {
+    font-weight: bold;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #000000;
+    font-size: 13px;
+}
+
+.profile {
+    width: 300px;
+    margin: 20px;
+    background: #fff;
+    border: 1px solid #fc98c3;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.name {
+    font-size: larger
+}
+
+.profile img {
+    width: 300px;
+    height: 300px;
+}
+
+.flirt-button {
+    display: none;
+    background: #ff7eb5;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.profile:hover .flirt-button {
+    display: block;
+}
+
+footer {
+    color: #000000;
+    position: absolute;
+    margin-top: 93%;
+}
