@@ -8,6 +8,7 @@
     transition: 0.3s ease;
 }
 
+
 .navbar ul {
     list-style: none;
     padding: 20;
@@ -29,10 +30,6 @@
 
 .navbar:hover {
     background: linear-gradient(90deg, #fc98c3, #f84995);
-}
-
-.container {
-    margin-top: 1px;
 }
 
 .header {
@@ -60,6 +57,7 @@ body {
     background: #fff;
     padding: 20px;
     color: #ff7eb5;
+    margin-top: 1px;
 }
 
 .header {

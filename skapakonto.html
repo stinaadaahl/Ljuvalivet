@@ -4,14 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ljuva livet - Skapa din profil</title>
-    <link rel="stylesheet" type="text/css" href="aboutme.css">
+    <title>Ljuva livet - Din dejtingprofil</title>
+    <link rel="stylesheet" type="text/css" href="skapakonto.css">
 
 </head>
 
 <body>
+    <header>
+    <div class="back-button">
+        <a href="index.html">&#8592; Tillbaka</a>
+    </div>
+</header>
     <div class="container">
-        <h1>Skapa din dejtingprofil</h1>
+        <h1>Din dejtingprofil</h1>
         <form action="process.php" method="post">
             <div class="form-column">
                 <label for="name">Namn:</label>
@@ -72,9 +77,12 @@
                 <label for="biografi">Biografi:</label>
                 <textarea id="biografi" name="biografi" rows="4"></textarea>
             </div>
-            <button type="submit">Skapa profil</button>
+            <div style="text-align: center;">
+                <a href="profiles.html">
+                    <button type="button">SKAPA MITT DEJTINGKONTO</button>
+                </a>
+            </div>
         </form>
-    </div>
 </body>
 
 </html>

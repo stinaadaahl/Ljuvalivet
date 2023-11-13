@@ -8,6 +8,23 @@ body {
     color: #333;
 }
 
+header {
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 #minage,
 #maxage {
     width: 99%;
@@ -19,7 +36,7 @@ body {
 }
 
 .container {
-    width: 30%;
+    max-width: 400px;
     margin: auto;
     background-color: #fff;
     padding: 20px;

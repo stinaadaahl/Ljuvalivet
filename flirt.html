@@ -1,31 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Ljuva livet - Skicka flirt</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ljuva livet - Flirta</title>
     <link rel="stylesheet" type="text/css" href="flirt.css">
 </head>
 
 <body>
     <header>
-        <div class="profile-info">
-            <img src="me.jpg" alt="Min profilbild">
-            <span>Min profil</span>
+        <div class="back-button">
+            <a href="profiles.html">&#8592; Tillbaka</a>
         </div>
-        <h1>Skicka flirt</h1>
+        <a href="skapakonto.html" class="profile-info">
+            <img src="stina.jpg" alt="Min profil">
+            <span>Min profil</span>
+        </a>
+        <h1>FLIRTA</h1>
     </header>
 
-    <div class="flirt-form">
-        <form action="#" method="post">
+    <div class="container">
+        <div class="flirt-form">
             <label for="recipient">Mottagare:</label>
-            <input type="text" id="recipient" name="recipient" required>
-
+            <select id="recipient" name="recipient" required>
+                <option value="Thea">
+                    <img src="thea.jpg" alt="Thea"> Thea
+                </option>
+                <option value="Gabriel">
+                    <img src="gabriel.jpg" alt="Gabriel"> Gabriel
+                </option>
+                <option value="Adrienne">
+                    <img src="adrienne.jpg" alt="Adrienne"> Adrienne
+                </option>
+                <option value="Martin">
+                    <img src="martin.jpg" alt="Martin"> Martin
+                </option>
+                <option value="Filippa">
+                    <img src="filippa.jpg" alt="Filippa"> Filippa
+                </option>
+                <option value="Jesper">
+                    <img src="jesper.jpg" alt="Jesper"> Jesper
+                </option>
+                <option value="Matilda">
+                    <img src="matilda.jpg" alt="Matilda"> Matilda
+                </option>
+                <option value="Svante">
+                    <img src="svante.jpg" alt="Svante"> Svante
+                </option>
+                <option value="Anna">
+                    <img src="anna.jpg" alt="Anna"> Anna
+                </option>
+            </select>
             <label for="message">Ditt meddelande:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
 
-            <input type="submit" value="Skicka flirt">
-        </form>
+            <input type="submit" value="SKICKA FLIRT" onclick="showPopup()">
+        </div>
+
+        <div class="video-container">
+            <video class="video" src="video.mp4" autoplay loop muted></video>
+            <video class="video" src="video2.mp4" autoplay loop muted></video>
+        </div>
     </div>
+
+    <div class="popup" id="flirtPopup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <p>Bra jobbat! Din flört är skickad, och en chatt blir nu tillgänglig för er två.</p>
+            <button onclick="goToChat()">Gå till chatt</button>
+        </div>
+    </div>
+
+    <script src="flirt.js"></script>
 
     <footer>
         &copy; 2023 Ljuva livet
